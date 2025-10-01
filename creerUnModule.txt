@@ -1,0 +1,50 @@
+dans un fichier aires.py créer les fonctions suivantes
+def carre(c):
+	return(c*c)
+
+def rectangle(x,y):
+	return(x*y)
+	
+def triangle(x,y):
+	return(x*y/2)
+	
+def circle(r):
+	pi=3.1415
+	return(pi*r*r)
+	
+crée un fichier useful.py dans lequel:
+import aires
+print(aires.carre(10))
+print(aires.rectangle(10,15))
+print(aires.circle(10))
+
+crée un fichier useful1.py dans lequel:
+import aires as ar
+print(ar.carre(10))
+print(ar.rectangle(10,15))
+print(ar.circle(10))
+
+crée un fichier useful2.py dans lequel:
+from aires import carre
+print(aires.carre(10))
+print(aires.rectangle(10,15))
+print(aires.circle(10))
+
+
+crée un fichier useful3.py dans lequel:
+from aires import*
+print(carre(10))
+print(rectangle(10,15))
+print(circle(10))
+
+# Documenter un fichier """" on donne la liste des fonctions
+							carre(n)
+							rectangle(x,y)
+							triangle(x,y)
+							circle(r) 
+							""""
+ Documenter une fonction 
+ def carre(c): 
+		"""renvoie l'aire du carré de côté c
+			c est un nombre positif """
+			
