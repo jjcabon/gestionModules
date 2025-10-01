@@ -1,0 +1,20 @@
+import turtle as tl
+import figures as fg
+
+tl.up()
+tl.goto(50,-60)
+tl.down()
+fg.rectangle(100,75,'red')
+
+tl.up()
+tl.goto(-80,-20)
+tl.down()
+fg.triangle(85,'blue')
+
+tl.up()
+tl.goto(20,60)
+tl.down()
+fg.circle(60,'green')
+
+# Rédiger le fichier figures
+# Documenter le fichier figures et ses fonctions
