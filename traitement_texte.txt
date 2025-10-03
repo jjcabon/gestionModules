@@ -1,0 +1,32 @@
+#TRAITEMENT DE TEXTE
+
+#Dans un fichier traitement_texte.py :
+
+#définis les fonctions suivantes:
+
+
+#mots est un tableau de chaine de caractères 
+
+#mot est une chaine de caractères
+
+# texte(mots): renvoie la concaténation des éléments 
+#de mots séparés par des espaces
+
+#enum(mots) renvoie la concaténation des éléments
+# de mots séparés par des virgules sauf les 
+# deux derniers qui sont séparés par 'et' 
+
+# pluriel(n,mot,pl=None) revoie une chaine formée
+# de n et de mot au pluriel selon la valeur de n 
+#en ajoutant 's' si pl=None 'x' si pl='x' et rien si pl='s'
+
+
+#Dans un fichier test_traitement_texte.py
+
+#texte(['il','fait','beau'])
+#texte(['il','fait',10,'degrés'])
+#enum(['Paris','Londres','Berlin'])
+#pluriel(-1,'degré')
+#pluriel(2,'degré')
+#pluriel(6,'chou','x')
+#pluriel(2000,'pas','s')
